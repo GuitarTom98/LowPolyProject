@@ -40,7 +40,7 @@ public class CollectiblesController : MonoBehaviour {
 	public void incrementCount(GameObject go)
 	{
 
-		if (go.name.Contains ("Heart")) {
+		if (go.name.Contains ("Food")) {
 		
 			cd [0].collectibleNum++;
 		
@@ -52,23 +52,30 @@ public class CollectiblesController : MonoBehaviour {
 
 		}
 
-		if (go.name.Contains ("Diamond")) {
+		if (go.name.Contains ("Stone")) {
 
 			cd [2].collectibleNum++;
 
 		}
-	
-	}
+
+        if (go.name.Contains("Plank")) {
+
+            cd[3].collectibleNum++;
+
+        }
+
+    }
 
 	void outputCounts()
 	{
 	
 		Debug.Log ("You've collected:");
-		Debug.Log ("Hearts = " + cd [0].collectibleNum);
+		Debug.Log ("Food = " + cd [0].collectibleNum);
 		Debug.Log ("Coconuts = " + cd [1].collectibleNum);
-		Debug.Log ("Diamonds = " + cd [2].collectibleNum);
-	
-	}
+		Debug.Log ("Stones = " + cd [2].collectibleNum);
+        Debug.Log("Wooden Planks = " + cd[2].collectibleNum);
+
+    }
 
 	public void SaveData(){
 	
