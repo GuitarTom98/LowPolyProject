@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 64880471247476280}
   - component: {fileID: 114624050451780180}
   - component: {fileID: 114175794020397052}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Coconut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 196992}
   m_LocalRotation: {x: -0.70710677, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 3.72, y: 0.673, z: -1.9840001}
+  m_LocalPosition: {x: 2.58, y: 0.673, z: 0.372}
   m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 0}
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c07fa4d5b1f73b4eb51b942e109a5fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 72a4eabafb4397b4ebd99b578c6a5924, type: 3}
+  clip: {fileID: 8300000, guid: 6399104538257d44eb05d1fa6d5e06ed, type: 3}
 --- !u!114 &114624050451780180
 MonoBehaviour:
   m_ObjectHideFlags: 1
